@@ -33,5 +33,5 @@ jobs:
         pip install -r requirements.txt
     - name: Run Flake8 and black
       run: |
-        flake8 .
         black .
+        flake8 .
